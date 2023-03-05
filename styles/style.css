@@ -56,5 +56,38 @@ header a:hover{
     font-size: larger;
     margin: 30px;
     margin-top: -50px;
-    
+}
+
+main{
+    padding: 200px 25px;
+    background-color: brown;
+    color: white;
+}
+#descriptionbox{
+    width: 50%;
+}
+#descriptionbox h4{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#descriptionbox h1{
+    font-family: serif;
+    font-weight: 700;
+     font-size: 60px;
+     margin: 0;
+    color: white;
+}
+#descriptionbox h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 4;
+    font-size: 25px;
+    margin: 0;
+    color: white;
+}
+
+#descriptionbox p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
 }
