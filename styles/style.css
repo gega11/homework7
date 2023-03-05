@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    padding: 25px 25px 25px;
+}
+
+header a:hover{
+    color: darkred;
+}
+.leftmenu a,
+.leftnav a{
+        transition-property: all;
+        transition-delay: 0.1s;
+        transition-duration: 2s;
+        transition-timing-function: ease;
+        color: white;
+        font-size: larger;
+        position: relative;
+   
+}
+
+.leftnav,
+.leftnav ul,
+.leftnav li{
+    display: inline-block;
+}
+
+.leftmenu ul li {
+    margin: 30px;
+}
+
+.rightmenu a,
+.rightnav a{
+    float: right;
+    transition-property: all;
+    transition-delay: 0.1s;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    color: white;
+    font-size: larger;
+    margin: 30px;
+    margin-top: -50px;
+    
+}
