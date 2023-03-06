@@ -8,6 +8,9 @@ html{
 ul{
     list-style-type: none;
 }
+body{
+    background-color: grey;
+}
 
 a{
     text-decoration: none;
@@ -91,11 +94,13 @@ main{
     font-size: 18px;
     color: white;
 }
+
 .forkids
 .sectioncontainer{
     max-width: 1200px;
     width:90%;
     margin: auto;
+    background-color: brown;
 }
 .can{
     position: relative;
@@ -124,19 +129,19 @@ main{
 
 .container {
     width: 100%;
-    height: 500px;
-    background-color: #f2f2f2;
+    height: 50px;
+    background-color: brown;
     position: relative;
+    margin-top: 50px;
   }
   
   .car img{
-    width: 50px;
+    width: 100px;
     height: 50px;
-    background-color: rgb(3, 3, 3);
     position: absolute;
     bottom: 0;
     left: 0;
-    animation: car-animation 5s linear infinite;
+    animation: car-animation 4s linear infinite;
   }
   
   @keyframes car-animation {
@@ -155,3 +160,30 @@ main{
         left:60%;
     }
   }
+
+
+  footer {
+    background-color: black;
+    color: #666;
+    text-align: left;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+
+  footer p {
+    color: white;
+    margin: 25px;
+    padding: 0;
+  }
+.ftcontainer img{
+    position: relative;
+    width: 25px;
+    height:25px;
+    color: white;
+}
+.ftcontainer a{
+    position: absolute;
+    margin: 5px;
+    color: white;
+}
