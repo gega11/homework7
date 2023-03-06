@@ -153,14 +153,7 @@ main{
       transform: translateX(100%);
     }
   }
-  @keyframes moveright {
-    from{
-        left:20%;
-    }
-    to{
-        left:60%;
-    }
-  }
+
 
 
   footer {
