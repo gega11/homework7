@@ -113,6 +113,7 @@ main{
     object-fit: cover;
     margin-top: 70px;
     margin-left: 70px;
+    margin-bottom: 50px;
 }
 
 .can p {
